@@ -10,7 +10,7 @@ public class Cards {
 		
 		if (App.space == 2 || App.space == 17 || App.space == 33){
 			Chest.chestDraw();
-			System.out.println("Communty chest card");
+			System.out.println("Community chest card");
 		}else if (App.space == 7 || App.space == 22 || App.space == 36){
 			Chance.chanceDraw();
 			System.out.println("Chance card");
