@@ -28,7 +28,7 @@ public class Run {
 		}
 		
 		if (App.movesim)
-			Movement.move(0, 0);
+			Movement.move();
 		
 		if (App.cardsim && !App.movesim){
 			if (Rand.randInt(0, 2) == 1)
@@ -52,7 +52,7 @@ public class Run {
 		}
 	}
 	
-	public static void initPlayers(){
+	public static void runPlayers(){
 		for(int i = 1; i <= App.players; i++){
 			
 			//Declares the players for the game

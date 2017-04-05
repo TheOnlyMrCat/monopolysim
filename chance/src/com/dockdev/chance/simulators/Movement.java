@@ -5,7 +5,7 @@ import com.dockdev.chance.Rand;
 
 public class Movement {
 	
-	public static void move(int space, int money){
+	public static void move(){
 		
 		int die1 = Rand.diceRoll();
 		int die2 = Rand.diceRoll();
@@ -15,9 +15,9 @@ public class Movement {
 				Jail.doubles++;
 		}
 		
-		if (space > 39){
-			space -= 39;
-			money+= 200;
+		if (App.space > 39){
+			App.space -= 39;
+			App.money+= 200;
 		}
 		System.out.println();
 		System.out.println("Move" + App.move + ":");

@@ -14,7 +14,7 @@ public class Console {
 			}
 		}else{
 			for (App.move = 0; App.move <= App.moves; App.move++){
-				Run.initPlayers();
+				Run.runPlayers();
 			}
 		}
 		Data.finmon = App.money;
