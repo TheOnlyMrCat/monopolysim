@@ -109,6 +109,8 @@ public class Data {
 			atlave++;
 		else if (space == 27)
 			venave++;
+		else if (space == 28)
+			wautil++;
 		else if (space == 29)
 			margar++;
 		else if (space == 30)
